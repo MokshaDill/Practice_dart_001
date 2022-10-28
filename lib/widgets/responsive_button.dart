@@ -6,6 +6,8 @@ class resbutton extends StatelessWidget {
   double? width;
 
 
+  
+  
   resbutton({Key? key, this.width, this.isResponssive=false}) : super(key: key);
 
   @override
@@ -22,6 +24,7 @@ class resbutton extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
            Image.asset("img/button-one.png"),
+          
         ],
       ),
     );
